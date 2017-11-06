@@ -59,7 +59,6 @@ public class AnimatedNumber extends LinearLayout {
 
     private void refreshNumbers() {
         for (int i = targetNumbers.length() - 1; i >= 0; i--) {
-            System.out.println(targetNumbers.charAt(i));
             if (targetNumbers.charAt(i) != oldNumbers.charAt(i)) {
                 animateNumbers.get(targetNumbers.length() - 1 - i).setText(String.valueOf(targetNumbers.charAt(i)));
                 oldNumbers.replace(i, i, String.valueOf(targetNumbers.charAt(i)));

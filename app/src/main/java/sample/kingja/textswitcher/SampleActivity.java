@@ -20,7 +20,7 @@ public class SampleActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_animateview);
         animateNumber = findViewById(R.id.animateNumber);
-        animateNumber.setNumber(870511);
+        animateNumber.setNumber(99);
     }
 
     public void onAdd(View view) {
